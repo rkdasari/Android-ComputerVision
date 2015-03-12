@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\AndroidDev\StabilizedHDR\stabilizedHDR\build\intermediates\exploded-aar\StabilizedHDR\openCVLibrary249\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="46a555a2692ae5cca64867ce2dfa6dd09da59ae1">
+        <dex dex="C:\AndroidDev\StabilizedHDR\stabilizedHDR\build\intermediates\pre-dexed\debug\classes-6fa1c970c55421ff2d6bf04c749e748e79bfae12.jar" />
+    </item>
+    <item
+        jar="C:\Users\Radhakrishna\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\AndroidDev\StabilizedHDR\stabilizedHDR\build\intermediates\pre-dexed\debug\support-v4-19.1.0-c2d9d4163b16ea9ab4135df80b706cd761b5ea51.jar" />
+    </item>
+
+</items>
