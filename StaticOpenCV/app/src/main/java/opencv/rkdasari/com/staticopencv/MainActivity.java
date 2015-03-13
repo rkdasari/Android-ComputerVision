@@ -21,12 +21,15 @@ import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
+import org.opencv.core.Scalar;
 import org.opencv.imgproc.Imgproc;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.ListIterator;
+
+import static org.opencv.core.Core.inRange;
 
 public class MainActivity extends ActionBarActivity implements CvCameraViewListener2, View.OnTouchListener {
     private static final String    TAG = "OCVSample::Activity";
@@ -150,6 +153,15 @@ public class MainActivity extends ActionBarActivity implements CvCameraViewListe
 
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
         final int viewMode = mViewMode;
+
+        Imgproc.cvtColor(inputFrame.rgba(), mRgba, Imgproc.COLOR_RGBA2BGR, 4);
+        Imgproc.cvtColor(mRgba, mRgba, Imgproc.COLOR_BGR2HSV, 4);
+       // Core.extractChannel(mRgba, mIntermediateMat, 0);
+        inRange( mRgba,new Scalar(0, 10, 60), new Scalar(20, 150, 255), mIntermediateMat);
+        Imgproc.threshold(mIntermediateMat,mIntermediateMat,40,179,Imgproc.THRESH_BINARY);
+        Imgproc.cvtColor(mIntermediateMat, mRgba,Imgproc.COLOR_GRAY2RGBA, 4);
+
+/*
         switch (viewMode) {
             case VIEW_MODE_GRAY:
                 // input frame has gray scale format
@@ -171,7 +183,7 @@ public class MainActivity extends ActionBarActivity implements CvCameraViewListe
                 mGray = inputFrame.gray();
                // FindFeatures(mGray.getNativeObjAddr(), mRgba.getNativeObjAddr());
                 break;
-        }
+        } */
 
         return mRgba;
     }
