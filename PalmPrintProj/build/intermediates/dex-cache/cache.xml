@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\AndroidDev\PalmPrintProj\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-22c96b5a01e44011f5d4efe2d5b71091ec927ee4.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDev\PalmPrintProj\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\classes-72f5b0d2906caaa26ce531fce73747354aac0455.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDev\PalmPrintProj\app\build\intermediates\exploded-aar\PalmPrintProj\openCVLibrary2410\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63f4573dae64c12387929f05fcf2143399158b5f">
+        <dex dex="C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\classes-425e4c9407bba891e59f76932f5954bea46c29a3.jar" />
+    </item>
+    <item
+        jar="C:\AndroidDev\PalmPrintProj\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\classes-922e0571bf802c1eaec6b38992c12cb851c87939.jar" />
+    </item>
+    <item
+        jar="C:\Users\Radhakrishna\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-201cf67a75293876bd18a44ebedea86359a6d5ea.jar" />
+    </item>
+
+</items>

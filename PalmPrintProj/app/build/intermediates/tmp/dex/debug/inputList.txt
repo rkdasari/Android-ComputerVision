@@ -1,0 +1,6 @@
+C:\AndroidDev\PalmPrintProj\app\build\intermediates\classes\debug
+C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-201cf67a75293876bd18a44ebedea86359a6d5ea.jar
+C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-22c96b5a01e44011f5d4efe2d5b71091ec927ee4.jar
+C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\classes-425e4c9407bba891e59f76932f5954bea46c29a3.jar
+C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\classes-922e0571bf802c1eaec6b38992c12cb851c87939.jar
+C:\AndroidDev\PalmPrintProj\app\build\intermediates\pre-dexed\debug\classes-72f5b0d2906caaa26ce531fce73747354aac0455.jar
